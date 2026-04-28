@@ -40,7 +40,10 @@ async function sendEmailViaUniSenderGo(data) {
     const emailData = {
       message: {
         recipients: [
-          { email: 'idrisovamir21tr@gmail.com' }
+          { email: 'idrisovamir21tr@gmail.com',
+            email: 'irkutskdom@yandex.ru',
+            email: '89086689000@yandex.ru'
+          }
         ],
         subject: 'Заявка с сайта "allvisa.site"',
         from_email: UNISENDER_GO_FROM_EMAIL,
